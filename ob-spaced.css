@@ -20,7 +20,7 @@ table td {
 /* Title – preserve the full post title */
 table th:nth-child(1),
 table td:nth-child(1) {
-    width: 60% !important;
+    width: 50% !important;
     white-space: normal !important;
     overflow: visible !important;
     text-overflow: clip !important;
@@ -30,21 +30,21 @@ table td:nth-child(1) {
 /* Format */
 table th:nth-child(2),
 table td:nth-child(2) {
-    width: 12% !important;
+    width: 20% !important;
     white-space: nowrap;
 }
 
 /* Download */
 table th:nth-child(3),
 table td:nth-child(3) {
-    width: 10% !important;
+    width: 20% !important;
     white-space: nowrap;
 }
 
 /* Size */
 table th:nth-child(4),
 table td:nth-child(4) {
-    width: 0% !important;
+    width: 10% !important;
     white-space: nowrap;
 }
 
