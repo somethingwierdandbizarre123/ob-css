@@ -1,0 +1,63 @@
+
+/* ==========================================
+   UNIT3D – Optimized Table Layout
+   ========================================== */
+
+/* Table layout */
+table {
+    width: 100% !important;
+    table-layout: fixed !important;
+}
+
+/* Default cell behavior */
+table th,
+table td {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    vertical-align: middle;
+}
+
+/* Title – preserve the full post title */
+table th:nth-child(1),
+table td:nth-child(1) {
+    width: 60% !important;
+    white-space: normal !important;
+    overflow: visible !important;
+    text-overflow: clip !important;
+    overflow-wrap: anywhere;
+}
+
+/* Format */
+table th:nth-child(2),
+table td:nth-child(2) {
+    width: 12% !important;
+    white-space: nowrap;
+}
+
+/* Download */
+table th:nth-child(3),
+table td:nth-child(3) {
+    width: 10% !important;
+    white-space: nowrap;
+}
+
+/* Size */
+table th:nth-child(4),
+table td:nth-child(4) {
+    width: 0% !important;
+    white-space: nowrap;
+}
+
+/* Seeders */
+table th:nth-child(5),
+table td:nth-child(5) {
+    width: 0% !important;
+    white-space: nowrap;
+}
+
+/* Leechers */
+table th:nth-child(6),
+table td:nth-child(6) {
+    width: 0% !important;
+    white-space: nowrap;
+}
