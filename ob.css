@@ -4,7 +4,7 @@
 
 /* Title column header */
 main article .table-responsive table th:nth-child(1) {
-    width: 42% !important;
+    width: 45% !important;
 }
 
 /* Title cells */
